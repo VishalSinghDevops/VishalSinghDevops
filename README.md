@@ -1,3 +1,5 @@
+![DevOps Banner](assets/images/repo-banner.png)
+
 ## Hi there 👋 I'm Vishal Singh
 
 🚀 **DevOps Engineer | Cloud | CI/CD | Kubernetes | Automation**
