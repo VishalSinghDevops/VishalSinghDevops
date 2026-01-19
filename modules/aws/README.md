@@ -1,2 +1,1 @@
-[![AWS Architecture](modules/aws/aws.png)]
-
+![AWS Architecture](modules/aws/aws.png)
