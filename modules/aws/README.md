@@ -1,1 +1,1 @@
-![AWS Architecture](aws.png)
+![AWS Architecture](/VishalSinghDevops/modules/aws/diagram/aws.png)
