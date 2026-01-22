@@ -1,8 +1,4 @@
 # Terraform Installation Guide
-
-This section describes **multiple ways to install Terraform** on different
-operating systems.
-
 ---
 
 ## 1. Install Terraform on Ubuntu / Debian
@@ -18,3 +14,44 @@ sudo tee /etc/apt/sources.list.d/hashicorp.list
 
 sudo apt update
 sudo apt install terraform
+
+
+## 2. Install Terraform on Red Hat / CentOS / Rocky / AlmaLinux
+
+### Method 1: Install using HashiCorp YUM Repository (Recommended)
+
+```bash
+sudo yum install -y yum-utils
+sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+sudo yum install terraform
+
+
+##  3. Install Terraform on macOS
+
+### Method 1: Install using Homebrew (Recommended)
+
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
+
+### Method 2: Manual Installation (Binary)
+
+curl -O https://releases.hashicorp.com/terraform/1.6.6/terraform_1.6.6_darwin_amd64.zip
+unzip terraform_1.6.6_darwin_amd64.zip
+sudo mv terraform /usr/local/bin/
+
+##  4. Install Terraform on Windows
+
+### Method 1: Install using Chocolatey (Recommended)
+
+choco install terraform
+
+### Method 2: Install using Scoop
+
+scoop install terraform
+
+
+### Verify Terraform Installation
+
+terraform version
+
+
