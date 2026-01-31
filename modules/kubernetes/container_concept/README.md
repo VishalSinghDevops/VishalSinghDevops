@@ -1,1 +1,1 @@
-![Difference btwn VM and Docker Diagram](../../diagram/vmvsdocker.drawio.svg)
+![Difference btwn VM and Docker Diagram](../../kubernetes/diagram/vmvsdocker.drawio.svg)
