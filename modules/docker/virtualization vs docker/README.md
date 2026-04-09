@@ -1,0 +1,1 @@
+![Difference btwn VM and Docker Diagram](../diagram/virtualization%20vs%20docker.svg)
