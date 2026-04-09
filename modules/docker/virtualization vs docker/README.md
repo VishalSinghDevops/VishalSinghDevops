@@ -1,1 +1,1 @@
-![Difference btwn VM and Docker Diagram](/VishalSinghDevops/modules/diagram/virtualization%20vs%20docker.svg)
+![Difference btwn VM and Docker Diagram](./modules/diagram/virtualization-vs-docker.svg)
